@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(158, 243, 158);
+}
+
+.grid-conteiner {
+    display: grid;
+    grid-template-columns: 33% 33% auto;
+    gap: 50px;
+    background-color: rgb(61, 187, 3);
+    padding: 15px;
+    justify-content: space-evenly
+}
+
+.grid-conteiner>div {
+    text-align: center;
+}
+
+.cajita {
+    width: 180px;
+    height: 180px;
+}
+
+.solid {
+    position: relative;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dotted {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px dotted black;
+}
+
+.dashed {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px dashed black;
+}
+
+.double {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px double black;
+}
+
+.groove {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px groove black;
+}
+
+.ridge {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px ridge black;
+}
+
+.inset {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px inset black;
+}
+
+.outset {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px outset black;
+}
+
+.text-conteiner {
+    position: absolute;
+    bottom: 10%;
+    font-size: large;
+    color: rgb(244, 247, 244);
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+img {
+    width: 180%;
+    height: 180%;
+    max-width: 100%;
+    max-height: 100%;
+}

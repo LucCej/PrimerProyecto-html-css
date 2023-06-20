@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(158, 243, 158);
+}
+
+.grid-conteiner5 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(61, 187, 3);
+    padding: 15px;
+    justify-content: space-evenly
+}
+
+.grid-conteiner5>div {
+    margin: 15px;
+    border: 2px solid black;
+    padding: 15px;
+    background-color: rgb(163, 247, 104);
+}
+
+h4 {
+    text-align: center;
+    background-color: green;
+    margin: 0;
+    font-size: 24px;
+}
+
+h5 {
+    text-align: center;
+}
+
+.plano {
+    background-color: greenyellow;
+}
+
+.gradiente {
+    background: linear-gradient(to bottom, rgb(2, 65, 2), greenyellow);
+}
+
+.gradiente1 {
+    background: linear-gradient(to right, rgb(2, 65, 2), greenyellow);
+}
+
+.gradiente2 {
+    background: linear-gradient(to top, rgb(2, 65, 2), greenyellow);
+}
+
+.gradiente3 {
+    background: linear-gradient(to left, rgb(2, 65, 2), greenyellow);
+}
+
+.imagen {
+    background-image: url(/asset/IMG_20220901_095509_700_x_400_pixel.jpg);
+}
+
+.text-conteiner {
+    bottom: 10%;
+    font-size: large;
+    color: rgb(244, 247, 244);
+    background-color: rgba(0, 0, 0, 0.466);
+}

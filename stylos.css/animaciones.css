@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(158, 243, 158);
+}
+
+h4 {
+    background-color: green;
+    margin: 0;
+    font-size: 24px;
+}
+
+.conteiner {
+    background-color: rgb(61, 187, 3);
+}
+
+.cajita {
+    text-align: center;
+    background-color: rgb(163, 247, 104);
+    margin: 0 20px;
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+@keyframes ejemplo {
+    from {
+        left: 0;
+        background-color: rgb(163, 247, 104);
+    }
+    to {
+        left: 1000px;
+        background-color: rgb(93, 139, 57);
+    }
+}
+
+.linear {
+    animation: ejemplo 10s linear infinite alternate;
+}
+.ease {
+    animation: ejemplo 10s ease infinite alternate;
+}
+.ease-in {
+    animation: ejemplo 10s ease-in infinite alternate;
+}
+.ease-out {
+    animation: ejemplo 10s ease-out infinite alternate;
+}
+.ease-in-out {
+    animation: ejemplo 10s ease-in-out infinite alternate;
+}
